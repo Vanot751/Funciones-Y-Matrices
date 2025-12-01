@@ -1,6 +1,5 @@
 # Constantes y configuración global
 
-
 import pygame
 
 pygame.init()
@@ -22,3 +21,8 @@ RED = (255, 0, 0)
 BLUE = (0, 0, 255)
 YELLOW = (255, 255, 0)
 PURPLE = (128, 0, 128)
+
+# --- Nuevas constantes de gameplay ---
+ENEMY_DAMAGE = 25           # Daño al jugador por colisión si no usa item
+MONEY_MIN = 10              # Valor mínimo de dinero en un cofre
+MONEY_MAX = 50              # Valor máximo de dinero en un cofre
